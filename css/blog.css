@@ -1,7 +1,24 @@
 div {
     border: .1rem solid black;
 }
-
+a:hover {
+    color: black !important;
+	font-size: 110%;
+	transition: color 1s, font-size 1s;
+}
+button:hover {
+	color: white !important;
+	background-color: black;
+	transition: color 1s, background-color 1s;
+}
+img:hover {
+	transform: rotate(5deg) scale(1.1);
+	transition: .3s ease-in-out;
+}
+body {
+	text-align: center;
+	line-height: 1.618rem;
+}
 .navFlex {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -9,6 +26,7 @@ div {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	justify-content: space-around;
 }
 .navFlex li {
 	margin: 0 1vh;
@@ -70,14 +88,6 @@ footer {
 }
 .footerInput button {
 	margin: 1em;
-}
-.footerInput button:hover {
-	margin: 1em;
-	background-color: blue;
-    color: red;
-	font-size: 200%;
-	-webkit-transition: background-color 2s, color 2s, font-size 2s;
-	transition: background-color 2s, color 2s, font-size 2s;
 }
 footer p {
 	display: -webkit-box;
@@ -151,11 +161,15 @@ header nav ul{
 }
 
 a:hover {
-	background-color: blue;
-    color: red;
-    font-size: 200%;
+    color: black !important;
+	font-size: 110%;
+	transition: color 1s, font-size 1s;
 }
-
+button:hover {
+	color: white !important;
+	background-color: black;
+	transition: color 1s, background-color 1s;
+}
 .fontRaleway {
 	font-family: 'Raleway', sans-serif;
 }

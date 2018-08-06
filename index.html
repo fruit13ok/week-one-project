@@ -21,23 +21,34 @@
 </head>
 
 <body>
-
-    <header class="fontRaleway">
+    <header>
         <div class="pos-f-t burgerDisplay">
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
-                    <ul class="smallNavFlex fontRaleway">
+                    <ul class="smallNavFlex">
                         <li>
-                            <a href="#">About</a>
+                            <a href="./index.html">About</a>
                         </li>
                         <li>
                             <a href="#">Gallry</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="./blog.html">Blog</a>
                         </li>
                         <li>
                             <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#sec1">sec1</a>
+                        </li>
+                        <li>
+                            <a href="#sec2">sec2</a>
+                        </li>
+                        <li>
+                            <a href="#sec3">sec3</a>
+                        </li>
+                        <li>
+                            <a href="#sec4">sec4</a>
                         </li>
                     </ul>
                 </div>
@@ -52,72 +63,146 @@
         <nav>
             <ul class="navFlex">
                 <li>
-                    <a href="#">About</a>
+                    <a href="./index.html">About</a>
                 </li>
                 <li>
                     <a href="#">Gallry</a>
                 </li>
                 <li>
-                    <a href="#">Blog</a>
+                    <a href="./blog.html">Blog</a>
                 </li>
                 <li>
                     <a href="#">Contact</a>
                 </li>
+                <li>
+                    <a href="#sec1">sec1</a>
+                </li>
+                <li>
+                    <a href="#sec2">sec2</a>
+                </li>
+                <li>
+                    <a href="#sec3">sec3</a>
+                </li>
+                <li>
+                    <a href="#sec4">sec4</a>
+                </li>
             </ul>
         </nav>
-
     </header>
-    <div>
+    <div class="bgImage centerContent">
         <h1>MONUMENT</h1>
         <h2>A LIFESTYLE MAGAZINE</h2>
     </div>
-    <section>
-        <h2>FROM THE ARCHIVE</h2>
-    </section>
-    <section>
-        <h2>ABOUT THE MAGAZINE</h2>
-    </section>
-    <section>
-        <h2>ISSUE TWENTY</h2>
-    </section>
-    <!-- <section>
-        <h2>GET IN TOUCH</h2>
-    </section> -->
-    <section class="comment">
-            <h1 class="">LEAVE A COMMENT</h1>
-            <form class="grid-container">
-                <input class="grid-item grid-item1" type="text" name="commentName" placeholder="NAME">
-                <input class="grid-item grid-item2" type="text" name="commentEmail" placeholder="EMAIL">
-                <textarea class="grid-item grid-item3" rows="7" cols="50" name="commentComment" placeholder="COMMENT"></textarea>
-                <input class="grid-item grid-item4" type="submit" name="commentSubmit" value="SUBMIT">
-            </form>
-        </section>
+    <div id="#scroll-container">
+        <div id="sec1">
+            <section>
+                <h2>FROM THE ARCHIVE</h2>
+                <div class="section1Flex">
+                    <article class="section1ArticleFlex">
+                        <img src="./images/article_1.jpg" alt="THE SOUTHWEST">
+                        <h3>ISSUE TWENTY — THE SOUTHWEST</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corporis harum enim facere vel
+                            nihil repellat suscipit atque sequi earum perferendis in voluptatum ad, iure aspernatur cum numquam
+                            distinctio dolorum!</p>
+                        <button>READ MORE</button>
+                    </article>
+                    <article class="section1ArticleFlex">
+                        <img src="./images/article_2.jpg" alt="CAMPING">
+                        <h3>ISSUE NINETEEN — CAMPING</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corporis harum enim facere vel
+                            nihil repellat suscipit atque sequi earum perferendis in voluptatum ad, iure aspernatur cum numquam
+                            distinctio dolorum!</p>
+                        <button>READ MORE</button>
+                    </article>
+                    <article class="section1ArticleFlex">
+                        <img src="./images/article_3.jpg" alt="FOOD">
+                        <h3>ISSUE EIGHTEEN - FOOD</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corporis harum enim facere vel
+                            nihil repellat suscipit atque sequi earum perferendis in voluptatum ad, iure aspernatur cum numquam
+                            distinctio dolorum!</p>
+                        <button>READ MORE</button>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <div id="sec2">
+            <section class="section2">
+                <article class="section2Article">
+                    <h2>ABOUT THE MAGAZINE</h2>
+                    <h3>A LIFESTYLE MAGAZINE CRAFTED WITH LOVE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corporis harum enim facere vel nihil
+                        repellat suscipit atque sequi earum perferendis in voluptatum ad, iure aspernatur cum numquam distinctio
+                        dolorum!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corporis harum enim facere vel nihil
+                        repellat suscipit atque sequi earum perferendis in voluptatum ad, iure aspernatur cum numquam distinctio
+                        dolorum!
+                    </p>
+                </article>
+            </section>
+        </div>
+        <div id="sec3">
+            <section>
+                <div>
+                    <h2>ISSUE TWENTY</h2>
+                    <h3></h3>
+                    <div class="section3GalleryRow">
+                        <div class="section3GalleryColumn">
+                            <img src="./images/gallery_1.jpg" alt="image">
+                            <img src="./images/gallery_2.jpg" alt="image">
+                        </div>
+                        <div class="section3GalleryColumn">
+                            <img src="./images/gallery_3.jpg" alt="image">
+                            <img src="./images/gallery_4.jpg" alt="image">
+                        </div>
+                        <div class="section3GalleryColumn">
+                            <img src="./images/gallery_5.jpg" alt="image">
+                            <img src="./images/gallery_6.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="sec4">
+            <section class="comment">
+                <h2 class="">GET IN TOUCH</h2>
+                <form class="grid-container">
+                    <input class="grid-item grid-name" type="text" name="commentName" placeholder="NAME">
+                    <input class="grid-item grid-email" type="text" name="commentEmail" placeholder="EMAIL">
+                    <input class="grid-item grid-subject" type="text" name="commentSubject" placeholder="SUBJECT">
+                    <textarea class="grid-item grid-message" rows="7" cols="50" name="commentComment" placeholder="COMMENT"></textarea>
+                    <!-- <input class="grid-item grid-submit" type="submit" name="commentSubmit" value="SUBMIT"> -->
+                    <button class="grid-item grid-submit" type="submit" name="commentSubmit">SUBMIT</button>
+                </form>
+            </section>
+        </div>
+    </div>
     <footer>
-            <nav>
-                <ul id="footerNavFlex">
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-facebook-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-twitter-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="footerInput fontRaleway">
-                <input type="text" name="footerEmail" placeholder="Email Address">
-                <button type="submit">Keep in Touch</button>
-            </div>
-            <p class="fontLato">&copy;2016 Sarah Holden</p>
-        </footer>
+        <nav>
+            <ul id="footerNavFlex">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footerInput">
+            <input type="text" name="footerEmail" placeholder="Email Address">
+            <button type="submit">Keep in Touch</button>
+        </div>
+        <p>&copy;2016 Sarah Holden</p>
+    </footer>
 </body>
 
 </html>
